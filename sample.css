@@ -1,0 +1,67 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(13, 8, 8);
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: blue;
+
+
+}
+.home-margin-top
+{
+    margin-top: 50px;
+}
+.navbar
+{
+    background: white;
+}
+
+.navbar-margin-top
+{
+    margin-top: -10px;
+    padding-bottom: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar
+    {
+        background: white;
+        height: auto;
+        margin-top: -20px;
+    }
+    .our-strength
+    {
+
+    font-weight: bolder;    
+    font-size: 2rem;
+    }
+
+    .home-margin-top
+    {
+        margin-top: 115px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .navbar
+    {
+        height: 80px;
+        padding:20px 0 10px 0;
+    }
+    .our-strength{
+        text-align: center;
+    }
+}
+
