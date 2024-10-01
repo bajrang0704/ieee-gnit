@@ -65,3 +65,20 @@ body{
     }
 }
 
+
+.btn-joinieee
+{
+    position: relative;
+    background: #080263;
+    color: white;
+    border-radius: 4px;
+    width: 200px;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 5px;
+}
+.btn-joinieee:hover
+{
+    color: white;
+    background-color: #17a2b8;
+}
