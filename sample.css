@@ -66,16 +66,24 @@ body{
 }
 
 
+.bold
+{
+    font-weight: bold;
+}
 .btn-joinieee
 {
     position: relative;
     background: #080263;
     color: white;
-    border-radius: 4px;
+    border-radius: 20px;
     width: 200px;
     transition: 0.5s;
     overflow: hidden;
-    padding: 5px;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 4px;
+    padding-bottom:4px;
 }
 .btn-joinieee:hover
 {
