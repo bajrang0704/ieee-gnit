@@ -9,3 +9,14 @@ function toggleEvents() {
         btn.innerText = 'Show More';
     }
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    var navbarCollapse = document.querySelector('.navbar-collapse');
+
+    navLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+            navbarCollapse.classList.remove('show'); // Collapse the navbar
+        });
+    });
+});
