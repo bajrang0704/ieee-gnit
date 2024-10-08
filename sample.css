@@ -8,24 +8,29 @@ body{
 
 }
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(13, 8, 8);
+    color: white !important;
     font-weight: bold;
     font-size: 1.2rem;
 
 }
 
+
 .navbar-light .navbar-nav .nav-link:hover{
-    color: blue;
+    color:#D3D3D3 !important;
 
 
 }
 .home-margin-top
 {
-    margin-top: 50px;
+    margin-top: 115px;
 }
 .navbar
 {
-    background: white;
+    background: #003366;
+}
+.background-color{
+    background: #003366;
+    color: white !important;
 }
 
 .navbar-margin-top
@@ -34,38 +39,18 @@ body{
     padding-bottom: 0;
 }
 
-
+.img-stable{
+    height: 470px;
+}
 @media only screen and (max-width: 600px) {
-    .navbar
-    {
-        background: white;
-        height: auto;
-        margin-top: -20px;
-    }
-    .our-strength
-    {
-
-    font-weight: bolder;    
-    font-size: 2rem;
-    }
-
     .home-margin-top
     {
-        margin-top: 115px;
+        margin-top: 140px;
+    }
+    .img-stable{
+        height: 250px;
     }
 }
-@media only screen and (min-width: 992px) {
-    .navbar
-    {
-        height: 80px;
-        padding:20px 0 10px 0;
-    }
-    .our-strength{
-        text-align: center;
-    }
-}
-
-
 .bold
 {
     font-weight: bold;
@@ -73,7 +58,7 @@ body{
 .btn-joinieee
 {
     position: relative;
-    background: #080263;
+    background: #003366;
     color: white;
     border-radius: 20px;
     width: 200px;
@@ -94,3 +79,4 @@ body{
 .size-fa{
     font-size: 30px;
 }
+
